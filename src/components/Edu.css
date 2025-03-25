@@ -1,0 +1,198 @@
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.education-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+    opacity: 1;
+    transform: translateY(30px);
+    position: relative;
+    height: 400px; /* Fixed height for uniform cards */
+}
+
+.show-on-scroll .education-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.education-card:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.education-card:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.education-card:hover {
+    transform: perspective(1000px) rotateY(10deg) translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.education-image {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.education-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.8s;
+    filter: brightness(90%);
+}
+
+.education-card:hover .education-image img {
+    transform: scale(1.2) rotate(3deg);
+    filter: brightness(110%);
+}
+
+.education-content {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.education-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.education-title::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #4CAF50;
+    transition: width 0.3s;
+}
+
+.education-card:hover .education-title::after {
+    width: 50px;
+}
+
+.education-description {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #aaa;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.education-card:hover .education-description {
+    max-height: 100px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.education-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.education-tag {
+    background-color: #2d2d2d;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+    transform: translateY(0);
+}
+
+.education-card:hover .education-tag {
+    background-color: #4CAF50;
+    transform: translateY(-3px);
+}
+
+.education-tag:hover {
+    background-color: #4CAF50;
+    transform: scale(1.1);
+}
+
+.education-links {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+    transform: translateY(20px);
+    transition: all 0.5s;
+}
+
+.education-card:hover .education-links {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.education-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+}
+
+.education-link::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    top: 0;
+    left: -40px;
+    transform: skewX(-45deg);
+    transition: left 0.5s;
+}
+
+.education-link:hover::before {
+    left: 150%;
+}
+
+/* Extended education info overlay */
+.education-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 14, 14, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all 0.5s;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.education-card:hover .education-overlay {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+}
