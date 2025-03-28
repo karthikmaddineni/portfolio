@@ -1,8 +1,10 @@
+/* Base styles */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
+    padding: 20px;
 }
 
 .about-image {
@@ -12,6 +14,8 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: transform 0.5s;
     perspective: 1000px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .about-image:hover {
@@ -107,4 +111,56 @@
 
 .skill:hover::before {
     left: 150%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .about-image {
+        max-width: 300px;
+        border-radius: 250px;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    .skill {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+}
+
+/* Mobile View Adjustments */
+@media screen and (max-width: 480px) {
+    .about-content {
+        padding: 10px;
+    }
+
+    .about-image {
+        max-width: 250px;
+        border-radius: 200px;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+    }
+
+    .skills {
+        gap: 10px;
+    }
+
+    .skill {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
 }
