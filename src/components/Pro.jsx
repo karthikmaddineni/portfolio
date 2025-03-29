@@ -8,6 +8,38 @@ return (
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-image">
+                    <img src={pro} alt="TODO" />
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">To-Do App with Auth and Team Task Management</h3>
+                    <p class="">This To-Do App is a full-stack project built with Node.js for the backend and MongoDB for cloud storage.</p>
+                    <br/>
+                    <div class="project-tags">
+                        <span class="project-tag">Node</span>
+                        <span class="project-tag">Express</span>
+                        <span class="project-tag">EJS</span>
+                        <span class="project-tag">Mongo DB</span>
+                        <span class="project-tag">HTML,CSS,JS</span>
+                    </div>
+                </div>
+                
+                <div class="project-overlay">
+                    <h3 class="overlay-title">Task Management</h3>
+                    <p class="overlay-description">It provides a secure and efficient task management system with CRUD operations and user authentication using sessions. </p>
+                    <ul class="overlay-features">
+                        <li>Login and sign-up functionality with session-based authentication.</li>
+
+
+                        <li>CSURF protection is implemented for enhanced security against CSRF attacks.</li>
+                        <li>Users can create team tasks and add members.</li>
+                    </ul>
+                    <div class="overlay-links">
+                        <a href="https://github.com/karthikmaddineni/task-manager" class="overlay-link">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
                     <img src={pro} alt="hand" />
                 </div>
                 <div class="project-content">
