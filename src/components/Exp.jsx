@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Exp.css"
 import exp1 from "../../assets/LOGO_EduSkills.png"; 
+import exp2 from "../../assets/MOURITech.jpg"; 
+
 const Exp = () => {
 return (
     <section id="experience" class="animate-in">
@@ -8,7 +10,7 @@ return (
     <div class="experience-grid">
         <div class="experience-card">
             <div class="experience-image">
-                <img src={exp1} alt="MOURI" />
+                <img src={exp2} alt="MOURI" />
             </div>
             <div class="experience-content">
                 <h3 class="experience-title">Java Developer</h3>
