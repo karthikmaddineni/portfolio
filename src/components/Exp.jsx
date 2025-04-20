@@ -8,6 +8,33 @@ return (
     <section id="experience" class="animate-in">
     <h2 class="section-title">My Experience</h2>
     <div class="experience-grid">
+
+         <div class="experience-card">
+            <div class="experience-image">
+                <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeklogo.com%2Ffree-vector-logos%2Fdxc-technology&psig=AOvVaw3vE8qlQ8-lyjNlWAWmdznM&ust=1745239010610000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCElozQ5owDFQAAAAAdAAAAABAE' alt="DXC" />
+            </div>
+            <div class="experience-content">
+                <h3 class="experience-title">Full Stack Developer</h3>
+                <p class="">I was tasked with developing and optimizing backend services using Spring Boot and Hibernate. One of my first major projects was building a RESTful API for a financial application, where I had to ensure high performance and security.</p>
+                <div class="experience-tags">
+                    <span class="experience-tag">Java</span>
+                    <span class="experience-tag">React</span>
+                    <span class="experience-tag">Micro services </span>
+                    <span class="experience-tag">CI/CD</span>
+                    <span class="experience-tag">SDLC</span>
+                </div>
+            </div>
+            
+            <div class="experience-overlay">
+                <h3 class="overlay-title">Full Stack Developer</h3>
+                <p class="overlay-description">Got involved in microservices architecture, breaking down a monolithic application into independent services, which improved scalability, contributed to CI/CD pipelines using Jenkins and containerized applications with Docker</p>
+                <ul class="overlay-features">
+                    <li>Built a real-time monitoring dashboard using WebSocket integration, optimizing data handling for high-volume streams and ensuring smooth user interactions.</li>
+<li> Automated CI/CD pipelines with Jenkins and GitHub Actions, improving deployment time and reducing errors by 30%, ensuring reliable and fast delivery cycles</li>
+                </ul>
+            </div>
+        </div>
+
         <div class="experience-card">
             <div class="experience-image">
                 <img src={exp2} alt="MOURI" />
