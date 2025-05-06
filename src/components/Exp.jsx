@@ -11,7 +11,7 @@ return (
 
          <div class="experience-card">
             <div class="experience-image">
-                <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeklogo.com%2Ffree-vector-logos%2Fdxc-technology&psig=AOvVaw3vE8qlQ8-lyjNlWAWmdznM&ust=1745239010610000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCElozQ5owDFQAAAAAdAAAAABAE' alt="DXC" />
+                <img src='' alt="Best Buy" />
             </div>
             <div class="experience-content">
                 <h3 class="experience-title">Full Stack Developer</h3>
