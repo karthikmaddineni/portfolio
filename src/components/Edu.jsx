@@ -33,31 +33,7 @@ return (
             </div>
         </div>
         
-        <div class="education-card">
-            <div class="education-image">
-                <img src={snist} alt="UnderGrad" />
-            </div>
-            <div class="education-content">
-                <h3 class="education-title">Under Graduate Degree</h3>
-                <p class="">Bachelor in Information Technology with focus on OOPS in java, web development, computer networks , system design and software engineering.</p>
-                <div class="education-tags">
-                    <span class="education-tag">2017-2023</span>
-                    <span class="education-tag">7.6 GPA</span>
-                    
-                </div>
-            </div>
-            
-            <div class="education-overlay">
-                <h3 class="overlay-title">Information Technology Degree</h3>
-                <p class="overlay-description">Earned a Bachelor of Science in Computer Science with honors, specializing in modern web technologies and application development methodologies.</p>
-                <ul class="overlay-features">
-                    <li>Advanced coursework in java, system design and computer networks</li>
-                    <li>Senior project: Developed an hand gesture model using openCV</li>
-                    <li>Teaching assistant in System Design for freshmans</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        
 </section>
 )
 }
