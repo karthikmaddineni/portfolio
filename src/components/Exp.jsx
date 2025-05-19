@@ -14,7 +14,7 @@ return (
                 <img src='' alt="Best Buy" />
             </div>
             <div class="experience-content">
-                <h3 class="experience-title">Full Stack Developer</h3>
+                <h3 class="experience-title">Summar Intern</h3>
                 <p class="">I was tasked with developing and optimizing backend services using Spring Boot and Hibernate. One of my first major projects was building a RESTful API for a financial application, where I had to ensure high performance and security.</p>
                 <div class="experience-tags">
                     <span class="experience-tag">Java</span>
@@ -37,7 +37,7 @@ return (
 
         <div class="experience-card">
             <div class="experience-image">
-                <img src={exp2} alt="MOURI" />
+                <img src={exp} alt="InfoSys" />
             </div>
             <div class="experience-content">
                 <h3 class="experience-title">Java Developer</h3>
