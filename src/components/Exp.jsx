@@ -26,7 +26,7 @@ return (
             </div>
             
             <div class="experience-overlay">
-                <h3 class="overlay-title">Full Stack Developer</h3>
+                <h3 class="overlay-title">Intern</h3>
                 <p class="overlay-description">Got involved in microservices architecture, breaking down a monolithic application into independent services, which improved scalability, contributed to CI/CD pipelines using Jenkins and containerized applications with Docker</p>
                 <ul class="overlay-features">
                     <li>Built a real-time monitoring dashboard using WebSocket integration, optimizing data handling for high-volume streams and ensuring smooth user interactions.</li>
@@ -37,7 +37,7 @@ return (
 
         <div class="experience-card">
             <div class="experience-image">
-                <img src={exp} alt="InfoSys" />
+                <img src={exp} alt="Trigent" />
             </div>
             <div class="experience-content">
                 <h3 class="experience-title">Java Developer</h3>
