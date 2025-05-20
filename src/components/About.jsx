@@ -10,7 +10,7 @@ const About = () => {
                 <img src={myImage} alt="Karthik Maddineni"/>
             </div>
             <div class="about-text">
-                <p>Hello! I'm Karthik Maddineni, newly graduated and a passionate full-stack developer with over 3 years of experience in creating beautiful, functional, and user-centered digital experiences.</p>
+                <p>Hello! I'm Karthik Maddineni, newly graduated and a passionate full-stack developer with over 4 years of experience in creating beautiful, functional, and user-centered digital experiences.</p>
                 <p>My approach to design combines creativity with functionality, focusing on clean aesthetics and intuitive navigation to enhance user engagement and satisfaction.</p>
                 <p>When I'm not coding or developing, you can find me exploring new technologies, contributing to open-source projects, or hiking in the mountains.</p>
                 <div class="skills">
